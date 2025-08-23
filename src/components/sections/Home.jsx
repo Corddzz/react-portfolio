@@ -1,5 +1,5 @@
-import RevealOnScroll from '../RevealOnScroll'
-import imageProfile from '../../assets/profile.png'
+import RevealOnScroll from '../RevealOnScroll';
+import imageProfile from '../../assets/Profile1.png';
 
 const Home = () => {
   return (
@@ -29,11 +29,13 @@ const Home = () => {
               {' '}
               Leonheil Cordero
             </span>
-            , an enthusiastic web developer. I enjoy building dynamic and
-            user-friendly web applications using latest technologies. I'm
-            currently seeking for new opportunities to work with a great team
-            where i can contribute my skills and experience as a developer. Feel
-            free to contact me. Happy Coding! 😊🧑‍💻🚀
+            , an enthusiastic web developer who enjoys building dynamic and
+            user-friendly web applications using the latest technologies. I’ve
+            worked on small to mid-scale projects that helped me sharpen my
+            skills and grow as a developer. I’m currently looking for new
+            opportunities to join a great team where I can contribute what I’ve
+            learned and continue to improve. Feel free to reach out. Happy
+            coding! 😊🧑‍💻🚀
           </p>
           <div className="flex justify-center space-x-4">
             <a
@@ -52,7 +54,7 @@ const Home = () => {
         </div>
       </RevealOnScroll>
     </section>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
